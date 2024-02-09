@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Media Login</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .login-container {
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideIn 0.5s ease forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  /* Rainbow Animation */
+  .rainbow-text {
+    background: linear-gradient(90deg, #ff4b2b, #ff416c, #ff4b2b, #ff416c, #ff4b2b, #ff416c, #29ff00, #f9f900, #00f7ff, #00c3ff, #0e00ff, #7800ff, #b400ff, #ff00e1, #ff0074, #ff0032, #ff4b2b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbowAnimation 5s linear infinite;
+  }
+
+  @keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #logg{
+    text-decoration: none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2><span class="rainbow-text">MY MEDIA</span> Login</h2>
+  <input type="text" placeholder="Username" name="username" required>
+  <input type="password" placeholder="Password" name="password" required>
+  <button type="submit" ><a href="index.html" id="logg">Login</a></button>
+  <p class="signup-link">Don't have an account? <a href="register.html">Sign up</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+::after::before
+
+
+
+.container{
+   
+    width: 80%;
+    
+}
+.wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-inline: 20px 10px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 2px 4px ;
+    color: white;
+}
+
+header{
+    background-color: grey;
+    padding: 20px;
+    font-family: cursive;
+    position: relative;
+    border: 200px white;
+
+}
+.child1{
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+    align-items: center;
+    padding: 10px 20px 30px;
+}
+
+.child33{
+    padding: 10px;
+    background-color: rgb(16, 13, 13);
+    border-radius: 20%;
+    border-color: bisque;
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    
+
+}
+header H1{
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.child2 img{
+    width: 30%;
+    object-fit: contain;
+    height: 30%;    
+}
+.child4{
+    
+    border: 2px white;
+    font-family: monospace;
+    font-size: large;
+    
+    
+}
+.child4 h1{
+    text-decoration: dashed;
+    color:black;
+    padding: 0%;
+    
+    
+}
+fieldset{
+    border: 20px 20px ;
+    
+    
+}
+fieldset legend{
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.child33:hover {
+
+    zoom: 1;
+    transition: all 1.3s;
+    color: black;
+    background-color:blue;
+    border-radius: 100%;
+    text-decoration:double;
+    border-style:groove;
+    
+    
+    text-shadow:5px 5px 5px snow;
+    
+}
+.MM{
+    height: 70px;
+    align-content: center;
+
+}
+/*.num1 {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 100px;
+    
+}*/
+#a:hover{
+    background-color:blue;
+    flex: 3;
+    transition: all 4s;
+    border-radius: 100px;
+
+
+}
+#b:hover{
+    background-color: blue;
+    flex: 3;
+    transition: all 4s;
+    border-radius: 100px;
+
+}
+#c:hover{
+    background-color: blue;
+    flex: 3;
+    transition: all 4s;
+    border-radius: 100px;
+
+}
+nav a{
+
+    border-style: inset;
+    padding: 10px;
+}
+.child4 p{
+    color:wheat;
+    
+    
+}
+.what{
+    height: 700px;
+    background-color:gray;
+    padding-top: 60px;
+
+}
+.why{
+    height: 500px;
+    background-color:rgb(233, 215, 215);
+}
+.why2{
+    padding-top: 90px;
+}
+.sp{
+    font-size: larger;
+    color:black;
+}
+.info-bar {
+    position:relative;
+    bottom:10%;
+    width:1360px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .info-bar p {
+    margin: 0;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .inff .info-bar{
+    margin-bottom: 1px;
+    bottom:0px;
+    position:relative;
+    display: flex;
+    nav-down: 0;
+    height: 150px;
+  }
+  .inff{
+    padding-bottom: 0;
+  }
